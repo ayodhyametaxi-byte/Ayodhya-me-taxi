@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayodhya Me Taxi | 24x7 Taxi Service</title>
+<meta name="description" content="Ayodhya Me Taxi - Sedan, SUV, Innova/Ertiga. Ayodhya sightseeing, Ram Mandir, airport transfer and outstation taxi booking.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f7f7f7;color:#222;line-height:1.6}
+header{background:#111;color:#fff;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-size:24px;font-weight:800}.badge{font-size:13px;color:#ffd166}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{background:linear-gradient(135deg,#111,#333);color:#fff;padding:70px 6%;text-align:center}
+.hero h1{font-size:44px;margin-bottom:10px}.hero p{font-size:19px;margin-bottom:25px;color:#ddd}
+.btn{display:inline-block;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:bold;margin:5px}
+.call{background:#ffd166;color:#111}.wa{background:#25d366;color:#fff}
+section{padding:55px 6%;max-width:1100px;margin:auto}
+h2{text-align:center;font-size:30px;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;padding:25px;border-radius:14px;box-shadow:0 4px 16px #00000012;text-align:center}
+.card h3{margin:10px 0}.icon{font-size:35px}
+.fleet .card{border-top:4px solid #ffd166}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{text-align:center;background:#fff;padding:24px;border-radius:14px}
+.form{max-width:650px;margin:auto;background:#fff;padding:25px;border-radius:14px;box-shadow:0 4px 16px #00000012}
+input,select,textarea{width:100%;padding:13px;margin:7px 0 14px;border:1px solid #ddd;border-radius:8px;font-size:15px}
+button{width:100%;padding:14px;background:#25d366;color:#fff;border:0;border-radius:8px;font-size:17px;font-weight:bold}
+.cta{background:#111;color:#fff;text-align:center;max-width:none}
+footer{background:#0d0d0d;color:#aaa;text-align:center;padding:25px}
+@media(max-width:700px){.hero h1{font-size:34px}.grid,.steps{grid-template-columns:1fr}nav{display:none}section{padding:40px 5%}}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">🚕 Ayodhya Me Taxi</div><div class="badge">24×7 Taxi Service</div></div>
+  <nav><a href="#services">Services</a><a href="#fleet">Cars</a><a href="#booking">Booking</a></nav>
+</header>
+
+<div class="hero">
+  <h1>Ayodhya Me Taxi</h1>
+  <p>Ayodhya mein reliable taxi service — Sedan, SUV, Innova/Ertiga</p>
+  <a class="btn call" href="tel:9696946410">📞 Call Now</a>
+  <a class="btn wa" href="https://wa.me/919696946410">💬 WhatsApp Booking</a>
+</div>
+
+<section id="services">
+<h2>Hamari Services</h2>
+<div class="grid">
+<div class="card"><div class="icon">🛕</div><h3>Ayodhya Sightseeing</h3><p>Ram Mandir aur Ayodhya ke pramukh darshan sthal ke liye taxi.</p></div>
+<div class="card"><div class="icon">✈️</div><h3>Airport Transfer</h3><p>Airport pickup aur drop ke liye comfortable taxi service.</p></div>
+<div class="card"><div class="icon">🛣️</div><h3>Outstation Taxi</h3><p>Ayodhya se Lucknow, Varanasi aur anya shahron ke liye cab.</p></div>
+</div>
+</section>
+
+<section id="fleet" class="fleet">
+<h2>Hamari Cars</h2>
+<div class="grid">
+<div class="card"><div class="icon">🚘</div><h3>Sedan</h3><p>Comfortable aur economical family rides.</p></div>
+<div class="card"><div class="icon">🚙</div><h3>SUV</h3><p>Family aur group travel ke liye spacious option.</p></div>
+<div class="card"><div class="icon">🚐</div><h3>Innova / Ertiga</h3><p>Long journey aur group booking ke liye best.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Booking Kaise Karein?</h2>
+<div class="steps">
+<div class="step"><h3>1️⃣ Call / WhatsApp</h3><p>9696946410 par contact karein.</p></div>
+<div class="step"><h3>2️⃣ Details Dein</h3><p>Pickup, date, time aur car type batayein.</p></div>
+<div class="step"><h3>3️⃣ Ride Confirm</h3><p>Driver aur pickup details confirm karein.</p></div>
+</div>
+</section>
+
+<section id="booking">
+<h2>Taxi Booking Enquiry</h2>
+<div class="form">
+<label>Name</label><input id="name" placeholder="Aapka naam">
+<label>Pickup Location</label><input id="pickup" placeholder="Pickup location">
+<label>Destination</label><input id="destination" placeholder="Kahan jana hai?">
+<label>Car</label>
+<select id="car"><option>Sedan</option><option>SUV</option><option>Innova/Ertiga</option></select>
+<label>Date & Time</label><input id="datetime" type="datetime-local">
+<button onclick="book()">WhatsApp par Booking Bhejein</button>
+</div>
+</section>
+
+<div class="cta">
+<section>
+<h2>Ayodhya Mein Taxi Chahiye?</h2>
+<p>Abhi call karein ya WhatsApp par booking bhejein.</p>
+<a class="btn call" href="tel:9696946410">📞 9696946410</a>
+<a class="btn wa" href="https://wa.me/919696946410">💬 WhatsApp</a>
+</section>
+</div>
+
+<footer>
+<p>© 2026 Ayodhya Me Taxi. All Rights Reserved.</p>
+<p>📞 9696946410 | 24×7 Taxi Service</p>
+</footer>
+
+<script>
+function book(){
+ const n=document.getElementById('name').value||'Not given';
+ const p=document.getElementById('pickup').value||'Not given';
+ const d=document.getElementById('destination').value||'Not given';
+ const c=document.getElementById('car').value;
+ const t=document.getElementById('datetime').value||'Not given';
+ const msg=`Namaste Ayodhya Me Taxi,%0A%0ABooking Enquiry:%0AName: ${n}%0APickup: ${p}%0ADestination: ${d}%0ACar: ${c}%0ADate/Time: ${t}`;
+ window.open('https://wa.me/919696946410?text='+msg,'_blank');
+}
+</script>
+</body>
+</html>
